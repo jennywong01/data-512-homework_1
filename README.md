@@ -5,6 +5,7 @@ The goal of this project is to construct and analyze the dataset of monthly arti
 # License and Sources
 - This repository is under the MIT License: https://tlo.mit.edu/learn-about-intellectual-property/software-and-open-source-licensing
 - The Wikimedia Foundation REST API terms of use: https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions
+- The Wikimedia API endpoint: https://wikimedia.org/api/rest_v1/#/Pageviews%20data
 - The reference Wikimedia REST API code is under the license: https://creativecommons.org/licenses/by/4.0/
 - Reference API document: https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view?usp=sharing
 - List of articles of Academy Award-winning movies:  https://docs.google.com/spreadsheets/d/1A1h_7KAo7KXaVxdScJmIVPTvjb3IuY9oZhNV4ZHxrxw/edit?usp=sharing
