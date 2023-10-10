@@ -21,6 +21,16 @@ This is the code file for data visualization. This file produces all the graphs 
 ### `academy_monthly_desktop_201507-202309.json`
 This is a final output file from the file `data_acquisition.ipynb`, containing the monthly desktop page traffic for the subset of pages through desktop access. The JSON file follows a nested structure, with the article title as the key, and monthly information as the value.
 
+For this data file and the following 2, they have the following structure and fields:
+- key: the article title
+  -   project: the specific Wikimedia project. In this case, all data are from the project "en.wikipedia"
+  -   article: the title of the article
+  -   granularity: the frequency of the data collection. In this case, all data are in monthly manner
+  -   timestamp: a timestamp that contains the year and month of the data
+  -   access: the way of access. The current JSON file is the data accessed through the desktop, and the following dataset is the data accessed through mobile devices, and the third one is a cumulative one combining the desktop and mobile acess.
+  -   agent: the agent of the API usage. In this case, all agent is "user"
+  -   views: the number of views in this month based on the timestamp
+  
 ### `academy_monthly_mobile_201507-202309.json`
 This is a final output file from the file `data_acquisition.ipynb`, containing the monthly mobile page traffic for the subset of pages through mobile access. The JSON file follows a nested structure, with the article title as the key, and monthly information as the value.
 
